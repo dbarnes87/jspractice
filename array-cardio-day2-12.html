@@ -39,7 +39,7 @@
         currentYear = (new Date().getFullYear());
         return currentYear - person.year >= 19;
     });
-    console.log(allAdults);
+    // console.log(allAdults);
 
     const allAdults1 = people.every(person => ((new Date().getFullYear()) - person.year) >= 19);
     console.log(allAdults1);
